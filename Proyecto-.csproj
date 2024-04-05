@@ -136,6 +136,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Categoría.cs" />
+    <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\CondicionPag.cs" />
     <Compile Include="Models\GrupoDescuento.cs" />
     <Compile Include="Models\UnidadMedida.cs" />
