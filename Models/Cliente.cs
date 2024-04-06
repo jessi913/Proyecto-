@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+
+
 using System.Linq;
 using System.Web;
 
@@ -9,6 +12,7 @@ namespace Proyecto_.Models
 {
     public class Cliente
     {
+
         [Key]
         public int ClienteId { get; set; }
 
@@ -36,6 +40,7 @@ namespace Proyecto_.Models
         public bool Estado { get; set; }
         [Required]
         public DateTime FechaCreacion { get; set; }
+
 
     }
 }
