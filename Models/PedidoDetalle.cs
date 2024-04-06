@@ -9,7 +9,7 @@ namespace Proyecto_.Models
 {
     public class PedidoDetalle
     {
-        public int PedidoDetale { get; set; }
+        public int Pedidodetalle { get; set; }
         [ForeignKey("PedidoId")]
         public int PedidoId { get; set; }
 
