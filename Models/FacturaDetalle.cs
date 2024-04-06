@@ -7,6 +7,7 @@ using System.Web;
 
 namespace Proyecto_.Models
 {
+    [Table("FacturaDetalle")]
     public class FacturaDetalle
     {
         

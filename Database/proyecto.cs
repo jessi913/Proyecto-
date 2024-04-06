@@ -30,5 +30,7 @@ namespace Proyecto_.Database
         public DbSet<CondicionPag> CondicionPag { get; set; }
 
         public DbSet<Factura> Factura { get; set; }
+
+        public DbSet<FacturaDetalle> FacturaDetalle { get; set; }
     }
 }
