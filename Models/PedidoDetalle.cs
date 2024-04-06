@@ -7,6 +7,7 @@ using System.Web;
 
 namespace Proyecto_.Models
 {
+    [Table("PedidoDetalle")]
     public class PedidoDetalle
     {
         public int Pedidodetalle { get; set; }
