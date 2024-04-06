@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -22,5 +23,6 @@ namespace Proyecto_.Database
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
         }
+        public DbSet<Categoría> Categoria { get; set; }
     }
 }
