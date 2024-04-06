@@ -10,6 +10,7 @@ using System.Web;
 
 namespace Proyecto_.Models
 {
+    [Table("Cliente")]
     public class Cliente
     {
 

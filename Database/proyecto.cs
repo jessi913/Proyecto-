@@ -24,5 +24,7 @@ namespace Proyecto_.Database
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
         }
         public DbSet<Categoría> Categoria { get; set; }
+
+        public DbSet<Cliente> Cliente { get; set; }
     }
 }
