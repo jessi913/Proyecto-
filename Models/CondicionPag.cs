@@ -11,7 +11,7 @@ namespace Proyecto_.Models
     {
         [Key]
        
-        public int CondicionPago{ get; set; }
+        public int CondicionPagoId{ get; set; }
 
         [Required]
         [StringLength(50)]

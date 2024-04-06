@@ -11,7 +11,7 @@ namespace Proyecto_.Models
     {
         [Key]
        
-        public int Unidadmedida { get; set; }
+        public int UnidadmedidaId { get; set; }
 
         [Required]
         [StringLength(50)]
