@@ -7,6 +7,7 @@ using System.Web;
 
 namespace Proyecto_.Models
 {
+    [Table("CondicionPag")]
     public class CondicionPag
     {
         [Key]

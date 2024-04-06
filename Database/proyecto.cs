@@ -26,5 +26,7 @@ namespace Proyecto_.Database
         public DbSet<Categoría> Categoria { get; set; }
 
         public DbSet<Cliente> Cliente { get; set; }
+
+        public DbSet<CondicionPag> CondicionPag { get; set; }
     }
 }
