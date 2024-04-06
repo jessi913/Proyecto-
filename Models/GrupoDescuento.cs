@@ -10,9 +10,8 @@ namespace Proyecto_.Models
     public class GrupoDescuento
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("GrupoDescuentoId")]
-        public int Id { get; set; }
+       
+        public int Grupodescuento { get; set; }
 
         [Required]
         [StringLength(50)]

@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Proyecto_.Models
 {
     public class Categoría
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("CategoriaId")]
-        public int Id { get; set; }
+       
+        public int CategoriaId { get; set; }
 
         [Required]
         [StringLength(50)]
