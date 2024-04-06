@@ -10,9 +10,8 @@ namespace Proyecto_.Models
     public class CondicionPag
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("CondicionPagId")]
-        public int Id { get; set; }
+       
+        public int CondicionPago{ get; set; }
 
         [Required]
         [StringLength(50)]
@@ -27,8 +26,6 @@ namespace Proyecto_.Models
 
         [Required]
         public int Dias { get; set; }
-
-     
 
         [Required]
         

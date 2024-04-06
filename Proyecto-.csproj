@@ -138,7 +138,12 @@
     <Compile Include="Models\Categoría.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\CondicionPag.cs" />
+    <Compile Include="Models\Factura.cs" />
+    <Compile Include="Models\FacturaDetalle.cs" />
     <Compile Include="Models\GrupoDescuento.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\PedidoDetalle.cs" />
+    <Compile Include="Models\Producto.cs" />
     <Compile Include="Models\UnidadMedida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

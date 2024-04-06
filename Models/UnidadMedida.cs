@@ -10,9 +10,8 @@ namespace Proyecto_.Models
     public class UnidadMedida
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("UnidadMedidaId")]
-        public int Id { get; set; }
+       
+        public int Unidadmedida { get; set; }
 
         [Required]
         [StringLength(50)]
