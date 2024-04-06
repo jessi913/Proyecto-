@@ -28,5 +28,7 @@ namespace Proyecto_.Database
         public DbSet<Cliente> Cliente { get; set; }
 
         public DbSet<CondicionPag> CondicionPag { get; set; }
+
+        public DbSet<Factura> Factura { get; set; }
     }
 }
